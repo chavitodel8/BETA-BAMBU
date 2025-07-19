@@ -1,0 +1,423 @@
+/* Responsive Design Improvements */
+
+/* Mobile First Approach */
+@media (max-width: 640px) {
+  /* Carrito más compacto en móviles */
+  #carrito {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    border-radius: 0;
+    margin-bottom: 0;
+    max-width: none;
+  }
+
+  /* Ajustar padding del contenido principal */
+  .py-20 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .py-16 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  /* Botones más grandes en móviles */
+  .agregar-carrito {
+    padding: 0.75rem 1rem !important;
+    font-size: 0.875rem !important;
+  }
+
+  /* Imágenes de platos más pequeñas */
+  .food-card .h-48 {
+    height: 8rem;
+  }
+
+  /* Imágenes de bebidas más pequeñas */
+  .food-card .h-32 {
+    height: 6rem;
+  }
+
+  /* Galería en una columna */
+  .h-64 {
+    height: 12rem;
+  }
+
+  /* WhatsApp flotante más pequeño */
+  .fixed.bottom-4.left-4 {
+    bottom: 1rem;
+    left: 1rem;
+    padding: 0.75rem;
+  }
+
+  .fixed.bottom-4.left-4 svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* Carrito más ancho en tablets */
+  #carrito {
+    max-width: 28rem;
+  }
+
+  /* Ajustar espaciado */
+  .py-20 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  /* Grid de 2 columnas para tablets */
+  .grid-cols-1.sm\\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Desktop improvements */
+@media (min-width: 1025px) {
+  /* Carrito más ancho en desktop */
+  #carrito {
+    max-width: 24rem;
+  }
+
+  /* Mejor espaciado en desktop */
+  .max-w-7xl {
+    max-width: 80rem;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1280px) {
+  /* Contenedor más ancho */
+  .max-w-7xl {
+    max-width: 90rem;
+  }
+}
+
+/* Ultra wide screens */
+@media (min-width: 1536px) {
+  .max-w-7xl {
+    max-width: 100rem;
+  }
+}
+
+/* Mejoras para el carrito en diferentes tamaños */
+@media (max-width: 768px) {
+  #items-carrito {
+    max-height: 20vh;
+  }
+
+  #items-carrito .flex {
+    padding: 0.5rem;
+  }
+
+  #items-carrito h4 {
+    font-size: 0.875rem;
+  }
+
+  #items-carrito p {
+    font-size: 0.75rem;
+  }
+}
+
+/* Mejoras para formularios */
+@media (max-width: 640px) {
+  .form-input {
+    font-size: 16px; /* Evita zoom en iOS */
+  }
+
+  textarea.form-input {
+    min-height: 100px;
+  }
+}
+
+/* Mejoras para navegación móvil */
+@media (max-width: 768px) {
+  .md\\:hidden button {
+    padding: 0.5rem;
+  }
+
+  .hidden.md\\:flex.absolute {
+    background: white;
+    border-top: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .hidden.md\\:flex.absolute a {
+    padding: 1rem;
+    border-bottom: 1px solid #f3f4f6;
+  }
+}
+
+/* Mejoras para testimonios */
+@media (max-width: 640px) {
+  .bg-white.p-4.sm\\:p-6 {
+    padding: 1rem;
+  }
+
+  .bg-white.p-4.sm\\:p-6 h4 {
+    font-size: 1rem;
+  }
+
+  .bg-white.p-4.sm\\:p-6 p {
+    font-size: 0.875rem;
+  }
+}
+
+/* Mejoras para el footer */
+@media (max-width: 640px) {
+  footer .grid {
+    gap: 1.5rem;
+  }
+
+  footer h4 {
+    font-size: 1.125rem;
+  }
+
+  footer ul {
+    font-size: 0.875rem;
+  }
+}
+
+/* Mejoras para botones de acción */
+@media (max-width: 640px) {
+  .bg-green-600.text-white.px-6.sm\\:px-8 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .border-2.border-green-600.text-green-600.px-6.sm\\:px-8 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Mejoras para el hero section */
+@media (max-width: 640px) {
+  .bg-pattern {
+    background-size: 15px 15px;
+  }
+
+  .w-full.h-96 {
+    height: 16rem;
+  }
+}
+
+/* Mejoras para el mapa */
+@media (max-width: 640px) {
+  .map-container {
+    height: 250px;
+  }
+}
+
+/* Mejoras para iconos */
+@media (max-width: 640px) {
+  .w-16.h-16 {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .w-8.h-8 {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+/* Mejoras para el logo */
+@media (max-width: 640px) {
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .text-2xl {
+    font-size: 1.25rem;
+  }
+}
+
+/* Mejoras para notificaciones */
+@media (max-width: 640px) {
+  .fixed.top-4.right-4 {
+    top: 1rem;
+    right: 1rem;
+    left: 1rem;
+    max-width: none;
+  }
+}
+
+/* Mejoras para el patrón de fondo */
+@media (max-width: 640px) {
+  .bg-pattern {
+    background-image: radial-gradient(
+      var(--primary-color) 1px,
+      transparent 1px
+    );
+    background-size: 12px 12px;
+  }
+}
+
+/* Mejoras para animaciones en móviles */
+@media (max-width: 640px) {
+  .animate__animated {
+    animation-duration: 0.8s;
+  }
+}
+
+/* Mejoras para el sticky carrito */
+@media (max-width: 768px) {
+  #carrito.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+  }
+
+  /* Ajustar el contenido principal para el carrito fijo */
+  #catalogo {
+    padding-top: 120px;
+  }
+}
+
+/* Mejoras específicas para el carrito móvil */
+@media (max-width: 768px) {
+  /* Burbuja del carrito móvil */
+  #carrito-movil {
+    z-index: 60;
+  }
+
+  #toggle-carrito-movil {
+    animation: pulse 2s infinite;
+  }
+
+  #toggle-carrito-movil:hover {
+    transform: scale(1.1);
+  }
+
+  /* Panel del carrito móvil */
+  #panel-carrito-movil {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  #panel-carrito-movil.scale-100 {
+    animation: slideInUp 0.3s ease-out;
+  }
+
+  #panel-carrito-movil.scale-0 {
+    animation: slideOutDown 0.3s ease-in;
+  }
+
+  /* Contador del carrito móvil */
+  #contador-carrito-movil {
+    animation: bounce 1s infinite;
+  }
+
+  /* Botones del carrito móvil */
+  #limpiar-carrito-movil,
+  #ordenar-whatsapp-movil {
+    font-size: 0.875rem;
+    padding: 0.75rem 0.5rem;
+  }
+
+  /* Items del carrito móvil */
+  #items-carrito-movil .flex {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #items-carrito-movil h4 {
+    font-size: 0.875rem;
+    line-height: 1.2;
+  }
+
+  #items-carrito-movil p {
+    font-size: 0.75rem;
+  }
+
+  /* Botones de cantidad más grandes para móviles */
+  #items-carrito-movil .w-5.h-5 {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* Animaciones para el carrito móvil */
+@keyframes slideInUp {
+  from {
+    transform: scale(0) translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutDown {
+  from {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0) translateY(20px);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  53%,
+  80%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  40%,
+  43% {
+    transform: translate3d(0, -8px, 0);
+  }
+  70% {
+    transform: translate3d(0, -4px, 0);
+  }
+  90% {
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+/* Mejoras para el contador del carrito */
+@media (max-width: 640px) {
+  #contador-carrito {
+    font-size: 0.75rem;
+    padding: 0.125rem 0.375rem;
+  }
+}
+
+/* Mejoras para el botón de ordenar */
+@media (max-width: 640px) {
+  #ordenar-whatsapp {
+    padding: 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  #ordenar-whatsapp svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}

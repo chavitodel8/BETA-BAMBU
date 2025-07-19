@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante El Bambú | Comida Boliviana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+          <!-- Logo -->
+          <div class="logo">
+            <div class="logo-icon"></div>
+            <span class="text-2xl font-bold text-green-700">El Bambú</span>
+          </div>
+
+          <!-- Navigation Links -->
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#inicio"
+              class="text-gray-700 hover:text-green-600 transition-colors"
+              >Inicio</a
+            >
+            <a
+              href="#nosotros"
+              class="text-gray-700 hover:text-green-600 transition-colors"
+              >Nosotros</a
+            >
+            <a
+              href="#catalogo"
+              class="text-gray-700 hover:text-green-600 transition-colors"
+              >Menú</a
+            >
+            <a
+              href="#contacto"
+              class="text-gray-700 hover:text-green-600 transition-colors"
+              >Contacto</a
+            >
+          </div>
+
+          <!-- Mobile menu button -->
+          <div class="md:hidden">
+            <button class="text-gray-700 hover:text-green-600">
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="bg-pattern py-20 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center"
+        >
+          <div class="animate__animated animate__fadeInLeft">
+            <h1
+              class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6"
+            >
+              Descubre la <span class="text-green-600">Auténtica</span> Cocina
+              Boliviana
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-600 mb-6 sm:mb-8">
+              Sabores tradicionales, ingredientes frescos y la mejor experiencia
+              gastronómica en un ambiente acogedor y familiar.
+            </p>
+            <div
+              class="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4"
+            >
+              <a
+                href="#catalogo"
+                class="bg-green-600 text-white px-6 sm:px-8 py-3 rounded-lg hover:bg-green-700 transition-colors text-center"
+              >
+                Ver Menú
+              </a>
+              <a
+                href="#contacto"
+                class="border-2 border-green-600 text-green-600 px-6 sm:px-8 py-3 rounded-lg hover:bg-green-600 hover:text-white transition-colors text-center"
+              >
+                Reservar
+              </a>
+            </div>
+          </div>
+          <div class="animate__animated animate__fadeInRight">
+            <div class="relative">
+              <div
+                class="w-full h-96 bg-green-200 rounded-2xl flex items-center justify-center floating"
+              >
+                <span class="text-green-600 text-lg"
+                  >Imagen del Restaurante</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
+            Sobre Nosotros
+          </h2>
+          <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+            Más de 20 años sirviendo los mejores platos de la gastronomía
+            boliviana con pasión y dedicación.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="text-center p-6">
+            <div
+              class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-8 h-8 text-green-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Tradición</h3>
+            <p class="text-gray-600">
+              Recetas transmitidas de generación en generación, preservando la
+              autenticidad de nuestros sabores.
+            </p>
+          </div>
+
+          <div class="text-center p-6">
+            <div
+              class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-8 h-8 text-green-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Calidad</h3>
+            <p class="text-gray-600">
+              Ingredientes frescos y de la más alta calidad, seleccionados
+              cuidadosamente para cada plato.
+            </p>
+          </div>
+
+          <div class="text-center p-6">
+            <div
+              class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-8 h-8 text-green-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Familia</h3>
+            <p class="text-gray-600">
+              Un ambiente cálido y familiar donde cada cliente se siente como en
+              casa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="catalogo" class="py-20 bg-pattern">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">Nuestro Menú</h2>
+          <p class="text-xl text-gray-600">
+            Platos típicos bolivianos preparados con amor y tradición
+          </p>
+        </div>
+
+        <!-- Carrito de Compras Compacto (Desktop) -->
+        <div
+          id="carrito"
+          class="bg-white rounded-lg shadow-lg p-4 mb-6 sticky top-20 z-40 max-w-md mx-auto lg:max-w-lg xl:max-w-md hidden md:block"
+        >
+          <div class="flex justify-between items-center mb-3">
+            <div class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-600 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 01-2 2H9a2 2 0 01-2-2v-6m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01"
+                ></path>
+              </svg>
+              <h3 class="text-lg font-semibold text-gray-800">Tu Pedido</h3>
+              <span
+                id="contador-carrito"
+                class="ml-2 bg-green-600 text-white text-xs px-2 py-1 rounded-full"
+                >0</span
+              >
+            </div>
+            <button
+              id="limpiar-carrito"
+              class="text-red-500 hover:text-red-700 text-xs font-medium"
+            >
+              Limpiar
+            </button>
+          </div>
+
+          <div
+            id="items-carrito"
+            class="space-y-2 mb-3 max-h-32 overflow-y-auto"
+          >
+            <div class="text-center text-gray-500 py-4">
+              <svg
+                class="w-8 h-8 mx-auto mb-1 text-gray-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 01-2 2H9a2 2 0 01-2-2v-6m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01"
+                ></path>
+              </svg>
+              <p class="text-sm">Carrito vacío</p>
+            </div>
+          </div>
+
+          <div id="resumen-carrito" class="border-t pt-3 hidden">
+            <div class="flex justify-between items-center mb-3">
+              <span class="font-semibold text-gray-800 text-sm">Total:</span>
+              <span id="total-carrito" class="text-xl font-bold text-green-600"
+                >Bs. 0</span
+              >
+            </div>
+            <button
+              id="ordenar-whatsapp"
+              class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition-colors font-semibold text-sm flex items-center justify-center"
+            >
+              <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"
+                />
+              </svg>
+              Ordenar por WhatsApp
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8"
+        >
+          <!-- Plato 1 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-48 bg-green-200 flex items-center justify-center">
+              <span class="text-green-600">Imagen del Plato</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Silpancho</h3>
+              <p class="text-gray-600 mb-4">
+                Carne de res empanizada con arroz, papas y huevo frito.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold text-green-600">Bs. 45</span>
+                <button
+                  class="agregar-carrito bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+                  data-nombre="Silpancho"
+                  data-precio="45"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plato 2 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-48 bg-green-200 flex items-center justify-center">
+              <span class="text-green-600">Imagen del Plato</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Pique Macho</h3>
+              <p class="text-gray-600 mb-4">
+                Carne, salchichas, papas fritas y huevo con salsa picante.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold text-green-600">Bs. 55</span>
+                <button
+                  class="agregar-carrito bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+                  data-nombre="Pique Macho"
+                  data-precio="55"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plato 3 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-48 bg-green-200 flex items-center justify-center">
+              <span class="text-green-600">Imagen del Plato</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Sopa de Maní</h3>
+              <p class="text-gray-600 mb-4">
+                Sopa tradicional con maní molido, carne y verduras.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold text-green-600">Bs. 35</span>
+                <button
+                  class="agregar-carrito bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+                  data-nombre="Sopa de Maní"
+                  data-precio="35"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plato 4 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-48 bg-green-200 flex items-center justify-center">
+              <span class="text-green-600">Imagen del Plato</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Chicharrón</h3>
+              <p class="text-gray-600 mb-4">
+                Carne de cerdo frita con mote, chuño y salsa criolla.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold text-green-600">Bs. 50</span>
+                <button
+                  class="agregar-carrito bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+                  data-nombre="Chicharrón"
+                  data-precio="50"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plato 5 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-48 bg-green-200 flex items-center justify-center">
+              <span class="text-green-600">Imagen del Plato</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Fricase</h3>
+              <p class="text-gray-600 mb-4">
+                Guiso de carne con chuño, mote y ají amarillo.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold text-green-600">Bs. 40</span>
+                <button
+                  class="agregar-carrito bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+                  data-nombre="Fricase"
+                  data-precio="40"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plato 6 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-48 bg-green-200 flex items-center justify-center">
+              <span class="text-green-600">Imagen del Plato</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Salteñas</h3>
+              <p class="text-gray-600 mb-4">
+                Empanadas horneadas rellenas de carne y verduras.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold text-green-600">Bs. 8</span>
+                <button
+                  class="agregar-carrito bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+                  data-nombre="Salteñas"
+                  data-precio="8"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bebidas Section -->
+    <section class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">Bebidas</h2>
+          <p class="text-xl text-gray-600">
+            Bebidas refrescantes y tradicionales
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
+        >
+          <!-- Bebida 1 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-32 bg-blue-200 flex items-center justify-center">
+              <span class="text-blue-600">Imagen de Bebida</span>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-semibold mb-2">Coca Cola</h3>
+              <p class="text-gray-600 mb-3 text-sm">Refresco de cola 500ml</p>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-green-600">Bs. 12</span>
+                <button
+                  class="agregar-carrito bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors text-sm"
+                  data-nombre="Coca Cola"
+                  data-precio="12"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bebida 2 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-32 bg-orange-200 flex items-center justify-center">
+              <span class="text-orange-600">Imagen de Bebida</span>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-semibold mb-2">Fanta</h3>
+              <p class="text-gray-600 mb-3 text-sm">
+                Refresco de naranja 500ml
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-green-600">Bs. 12</span>
+                <button
+                  class="agregar-carrito bg-orange-600 text-white px-3 py-1 rounded hover:bg-orange-700 transition-colors text-sm"
+                  data-nombre="Fanta"
+                  data-precio="12"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bebida 3 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-32 bg-yellow-200 flex items-center justify-center">
+              <span class="text-yellow-600">Imagen de Bebida</span>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-semibold mb-2">Sprite</h3>
+              <p class="text-gray-600 mb-3 text-sm">Refresco de limón 500ml</p>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-green-600">Bs. 12</span>
+                <button
+                  class="agregar-carrito bg-yellow-600 text-white px-3 py-1 rounded hover:bg-yellow-700 transition-colors text-sm"
+                  data-nombre="Sprite"
+                  data-precio="12"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bebida 4 -->
+          <div class="food-card bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="h-32 bg-green-200 flex items-center justify-center">
+              <span class="text-green-600">Imagen de Bebida</span>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-semibold mb-2">Agua Mineral</h3>
+              <p class="text-gray-600 mb-3 text-sm">Agua sin gas 500ml</p>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-green-600">Bs. 8</span>
+                <button
+                  class="agregar-carrito bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700 transition-colors text-sm"
+                  data-nombre="Agua Mineral"
+                  data-precio="8"
+                >
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">Galería</h2>
+          <p class="text-xl text-gray-600">
+            Momentos especiales en nuestro restaurante
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6"
+        >
+          <div
+            class="h-64 bg-green-200 rounded-lg flex items-center justify-center"
+          >
+            <span class="text-green-600">Foto 1</span>
+          </div>
+          <div
+            class="h-64 bg-green-200 rounded-lg flex items-center justify-center"
+          >
+            <span class="text-green-600">Foto 2</span>
+          </div>
+          <div
+            class="h-64 bg-green-200 rounded-lg flex items-center justify-center"
+          >
+            <span class="text-green-600">Foto 3</span>
+          </div>
+          <div
+            class="h-64 bg-green-200 rounded-lg flex items-center justify-center"
+          >
+            <span class="text-green-600">Foto 4</span>
+          </div>
+          <div
+            class="h-64 bg-green-200 rounded-lg flex items-center justify-center"
+          >
+            <span class="text-green-600">Foto 5</span>
+          </div>
+          <div
+            class="h-64 bg-green-200 rounded-lg flex items-center justify-center"
+          >
+            <span class="text-green-600">Foto 6</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-pattern">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">
+            Lo que dicen nuestros clientes
+          </h2>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
+        >
+          <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg">
+            <div class="flex items-center mb-4">
+              <div
+                class="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center mr-4"
+              >
+                <span class="text-green-600 font-bold">M</span>
+              </div>
+              <div>
+                <h4 class="font-semibold">María González</h4>
+                <div class="flex text-yellow-400">★★★★★</div>
+              </div>
+            </div>
+            <p class="text-gray-600">
+              "La mejor comida boliviana que he probado. El ambiente es muy
+              acogedor y el servicio excelente."
+            </p>
+          </div>
+
+          <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg">
+            <div class="flex items-center mb-4">
+              <div
+                class="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center mr-4"
+              >
+                <span class="text-green-600 font-bold">C</span>
+              </div>
+              <div>
+                <h4 class="font-semibold">Carlos Rodríguez</h4>
+                <div class="flex text-yellow-400">★★★★★</div>
+              </div>
+            </div>
+            <p class="text-gray-600">
+              "El pique macho es espectacular. Definitivamente volveré con mi
+              familia."
+            </p>
+          </div>
+
+          <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg">
+            <div class="flex items-center mb-4">
+              <div
+                class="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center mr-4"
+              >
+                <span class="text-green-600 font-bold">A</span>
+              </div>
+              <div>
+                <h4 class="font-semibold">Ana López</h4>
+                <div class="flex text-yellow-400">★★★★★</div>
+              </div>
+            </div>
+            <p class="text-gray-600">
+              "Las salteñas son las mejores de la ciudad. Muy recomendado para
+              desayunar."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contacto" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">Contáctanos</h2>
+          <p class="text-xl text-gray-600">
+            Reserva tu mesa o consulta cualquier duda
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+          <!-- Contact Form -->
+          <div>
+            <div class="bg-green-50 p-6 rounded-lg mb-6">
+              <h3 class="text-lg font-semibold text-green-800 mb-2">
+                📱 Contacta directamente con el dueño
+              </h3>
+              <p class="text-green-700 text-sm">
+                Completa el formulario y te conectaremos automáticamente con
+                WhatsApp
+              </p>
+            </div>
+
+            <form class="space-y-6">
+              <div>
+                <label class="block text-gray-700 mb-2 font-medium"
+                  >Tu Nombre *</label
+                >
+                <input
+                  type="text"
+                  class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:border-green-600"
+                  placeholder="Ej: María González"
+                  required
+                />
+              </div>
+              <div>
+                <label class="block text-gray-700 mb-2 font-medium"
+                  >Tu Mensaje *</label
+                >
+                <textarea
+                  rows="4"
+                  class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:border-green-600"
+                  placeholder="Ej: Hola, quisiera reservar una mesa para 4 personas el sábado a las 8pm"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-green-600 text-white py-4 rounded-lg hover:bg-green-700 transition-colors font-semibold text-lg flex items-center justify-center"
+              >
+                <svg
+                  class="w-6 h-6 mr-2"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"
+                  />
+                </svg>
+                Enviar por WhatsApp
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="space-y-8">
+            <div>
+              <h3 class="text-2xl font-semibold mb-4">
+                Información del Restaurante
+              </h3>
+              <div class="space-y-4">
+                <div class="flex items-center">
+                  <svg
+                    class="w-6 h-6 text-green-600 mr-3"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                  </svg>
+                  <span class="text-gray-600"
+                    >Av. Principal 123, La Paz, Bolivia</span
+                  >
+                </div>
+                <div class="flex items-center">
+                  <svg
+                    class="w-6 h-6 text-green-600 mr-3"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    ></path>
+                  </svg>
+                  <span class="text-gray-600">+591 67470858</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-blue-50 p-6 rounded-lg">
+              <h3 class="text-xl font-semibold mb-4 text-blue-800">
+                👨‍🍳 Contacta con el Dueño
+              </h3>
+              <div class="flex items-center">
+                <svg
+                  class="w-6 h-6 text-green-600 mr-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                  ></path>
+                </svg>
+                <a
+                  href="https://wa.me/59167470858"
+                  target="_blank"
+                  class="text-blue-700 hover:text-blue-900 transition-colors font-semibold"
+                  >+591 67470858 (WhatsApp del Dueño)</a
+                >
+              </div>
+              <p class="text-blue-600 text-sm mt-2">
+                Resuelve dudas, haz reservas o consultas directamente con el
+                propietario
+              </p>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-semibold mb-4">Horarios</h3>
+              <div class="space-y-2 text-gray-600">
+                <p><strong>Lunes - Viernes:</strong> 11:00 AM - 10:00 PM</p>
+                <p><strong>Sábados:</strong> 11:00 AM - 11:00 PM</p>
+                <p><strong>Domingos:</strong> 12:00 PM - 9:00 PM</p>
+              </div>
+            </div>
+
+            <!-- Map placeholder -->
+            <div
+              class="map-container bg-green-200 flex items-center justify-center"
+            >
+              <span class="text-green-600">Mapa del Restaurante</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-700 text-white py-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8"
+        >
+          <div>
+            <div class="logo mb-4">
+              <div class="logo-icon"></div>
+              <span class="text-2xl font-bold text-white">El Bambú</span>
+            </div>
+            <p class="text-green-100">
+              La mejor experiencia gastronómica boliviana en un ambiente
+              familiar y acogedor.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Enlaces Rápidos</h4>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#inicio"
+                  class="text-green-100 hover:text-white transition-colors"
+                  >Inicio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#nosotros"
+                  class="text-green-100 hover:text-white transition-colors"
+                  >Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#catalogo"
+                  class="text-green-100 hover:text-white transition-colors"
+                  >Menú</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contacto"
+                  class="text-green-100 hover:text-white transition-colors"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Contacto</h4>
+            <ul class="space-y-2 text-green-100">
+              <li>Av. Principal 123, La Paz</li>
+              <li>+591 67470858</li>
+              <li>
+                <a
+                  href="https://wa.me/59167470858"
+                  target="_blank"
+                  class="hover:text-white transition-colors"
+                  >WhatsApp del Dueño</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Síguenos</h4>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-500 transition-colors"
+              >
+                <span class="text-white">f</span>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-500 transition-colors"
+              >
+                <span class="text-white">in</span>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-500 transition-colors"
+              >
+                <span class="text-white">ig</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-green-600 mt-8 pt-8 text-center text-green-100"
+        >
+          <p>
+            &copy; 2024 Restaurante El Bambú. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Flotante -->
+    <a
+      href="https://wa.me/59167470858"
+      target="_blank"
+      class="fixed bottom-4 left-4 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50"
+    >
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"
+        />
+      </svg>
+    </a>
+
+    <!-- Carrito Flotante (Móvil) -->
+    <div id="carrito-movil" class="fixed bottom-4 right-4 md:hidden z-50">
+      <!-- Burbuja del Carrito -->
+      <button
+        id="toggle-carrito-movil"
+        class="bg-orange-500 text-white p-4 rounded-full shadow-lg hover:bg-orange-600 transition-colors relative"
+      >
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 01-2 2H9a2 2 0 01-2-2v-6m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01"
+          ></path>
+        </svg>
+        <!-- Contador -->
+        <span
+          id="contador-carrito-movil"
+          class="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-1 rounded-full"
+          >0</span
+        >
+      </button>
+
+      <!-- Panel del Carrito (Oculto por defecto) -->
+      <div
+        id="panel-carrito-movil"
+        class="absolute bottom-16 right-0 w-80 bg-white rounded-lg shadow-xl border transform scale-0 origin-bottom-right transition-transform duration-300"
+      >
+        <div class="p-4">
+          <!-- Header -->
+          <div class="flex justify-between items-center mb-3">
+            <h3 class="text-lg font-semibold text-gray-800">🛒 Tu Pedido</h3>
+            <button
+              id="cerrar-carrito-movil"
+              class="text-gray-500 hover:text-gray-700"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Items del Carrito -->
+          <div
+            id="items-carrito-movil"
+            class="space-y-2 mb-3 max-h-48 overflow-y-auto"
+          >
+            <div class="text-center text-gray-500 py-8">
+              <svg
+                class="w-12 h-12 mx-auto mb-2 text-gray-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 01-2 2H9a2 2 0 01-2-2v-6m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01"
+                ></path>
+              </svg>
+              <p class="text-sm">Tu carrito está vacío</p>
+            </div>
+          </div>
+
+          <!-- Resumen -->
+          <div id="resumen-carrito-movil" class="border-t pt-3 hidden">
+            <div class="flex justify-between items-center mb-3">
+              <span class="font-semibold text-gray-800">Total:</span>
+              <span
+                id="total-carrito-movil"
+                class="text-xl font-bold text-green-600"
+                >Bs. 0</span
+              >
+            </div>
+
+            <!-- Botones de Acción -->
+            <div class="flex space-x-2">
+              <button
+                id="limpiar-carrito-movil"
+                class="flex-1 bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition-colors text-sm"
+              >
+                Limpiar
+              </button>
+              <button
+                id="ordenar-whatsapp-movil"
+                class="flex-1 bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition-colors text-sm flex items-center justify-center"
+              >
+                <svg
+                  class="w-4 h-4 mr-1"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"
+                  />
+                </svg>
+                Ordenar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

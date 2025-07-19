@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #b8e1b5;
+  --secondary-color: #6a8c69;
+  --accent-color: #4a6b47;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.logo-icon:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 25px;
+  background-color: var(--primary-color);
+  left: 12px;
+  top: 15px;
+  transform: rotate(45deg);
+}
+
+.logo-icon:after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 15px;
+  background-color: var(--primary-color);
+  left: 20px;
+  top: 5px;
+  transform: rotate(-15deg);
+}
+
+.food-card {
+  transition: all 0.3s ease;
+}
+
+.food-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.bg-pattern {
+  background-image: radial-gradient(var(--primary-color) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.map-container {
+  height: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(184, 225, 181, 0.4);
+}
+
+.owl-carousel .item {
+  margin: 10px;
+}
+
+.owl-carousel .item img {
+  border-radius: 8px;
+}
